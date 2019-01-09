@@ -20,4 +20,7 @@ public class Employee {
 		currentPosition = _CurrentPosition;
 		reportTo = _ReportTo;
 	}
+	
+	//PT -- you've given enough code to create an Employee object, but I can't do anything with it. You need get/set functions
+	// -3
 }
