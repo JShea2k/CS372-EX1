@@ -5,6 +5,8 @@ public class ex1_4 {
 		Scanner input = new Scanner(System.in);
 		int userWeight = input.nextInt();
 		int userHeight = input.nextInt();
+		//PT -- name these numbers, as you did for PI
+		//  final double KG_PER_POUND = 0.4536;
 		double weight = userWeight * 0.4536;
 		double height = userHeight * 0.0254;
 		double BMI = weight * height * height;
