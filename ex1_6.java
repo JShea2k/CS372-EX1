@@ -10,6 +10,7 @@ public class Date {
 	* _Year sets the year number
 	*/
 	public Date(int _Day, int _Month, int _Year) {
+		//PT -- need to be more careful. This allows me to create 2/31/2019. -2
 		if((_Day >= 1) || (_Day <= 31))
 			day = _Day;
 		else 
@@ -47,6 +48,10 @@ public class Date {
 		year = _Year;
 	}
 	
+	//PT -- need to return today's date. -2
+	
+	//PT -- this won't get the right difference in most cases. Consider 3/2/2019 - 2/28/2019.
+	//  -3
 	public Date dayDifference(Date d) {
 		int difference = d.getDay() - day;
 		return new Date(difference, month, year);
