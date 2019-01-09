@@ -12,5 +12,8 @@ public class ex1_3 {
 			System.out.println("Please enter a number instead. ");
 		else
 			System.out.println("Thank you! "); 
+		//PT -- I wanted you to convert the String object to an int value. And if
+		//      the user inputted "123", you need to loop to calculate 123.
+		//  -8
 	}
 }
