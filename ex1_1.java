@@ -4,6 +4,7 @@ public class ex1_1 {
         System.out.println("Please enter a number between 10 and 100 ");
         Scanner input = new Scanner(System.in);
         int userNum = input.nextInt();
+	    //PT -- make sure you check that the number is valid -3
         for(int i = 0; i < userNum; i++) {
 			if(i % 2 == 0) 
 				System.out.println(i + " is even. ");
